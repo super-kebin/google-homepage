@@ -1,3 +1,9 @@
+body {
+	font: small arial, sans-serif;
+	margin: 0;
+	min-height: 616px;
+}
+
 .wrapper {
 	display: flex;
 	flex-flow: row wrap;
@@ -17,12 +23,15 @@ nav {
 
 nav a {
 	text-decoration: none;
+	color: #000;
 }
 
 nav li {
 	list-style: none;
 	display: inline;
-	margin-right: 10px;
+	/*margin-right: 10px;*/
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 .middle {
@@ -47,11 +56,13 @@ footer ul {
 
 footer li {
 	display: inline;
-	padding: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 footer a {
 	text-decoration: none;
+	color: #000;
 }
 
 footer .list1 {
