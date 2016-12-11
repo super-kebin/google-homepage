@@ -16,6 +16,7 @@ nav, .middle, footer {
 nav {
   display: flex;
   justify-content: flex-end;
+  padding-top: 10px;
 }
 
 nav a {
@@ -30,8 +31,16 @@ nav li {
 
 .middle {
   text-align: center;
-  padding-top: 100px;
-  padding-bottom: 150;
+  padding-top: 163px;
+  padding-bottom: 150px;
+}
+
+div .middle .search_cl {
+  padding-top: 25px;
+}
+
+div .middle .search_cl .button_cl {
+  padding-top: 20px;
 }
 
 footer {
