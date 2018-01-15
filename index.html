@@ -6,40 +6,34 @@
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
-    <!-- indent elements correctly -->
     <div class="wrapper">
     <nav>
-      <ul>
-	<li><a href="#">About</a></li>
-	<li><a href="#">Store</a></li>
-      </ul>
       <ul>
         <li><a href="#">Gmail</a></li>
         <li><a href="#">Images</a></li>
       </ul>
-      <ul>
+      <ul class="icon_group">
         <li>
-          <a href="#">
-	    <!-- Keypad Filled icon by Icons8 -->
-	    <img src="https://maxcdn.icons8.com/iOS7/PNG/25/User_Interface/keypad_filled-25.png" title="Keypad Filled" width="25">
-          </a>
+	  <!-- Image from google source -->
+          <a class="icon keypad" href="#"></a>
         </li>
         <li>
-          <a href="#">
-	    <!-- Keypad Filled icon by Icons8 -->
-	    <img src="https://maxcdn.icons8.com/Android_L/PNG/24/Messaging/appointment_reminders-24.png" title="Appointment Reminders" width="24">
-          </a>
+	  <!-- Image from google source -->
+          <a class="icon bell" href="#"></a>
         </li>
-        <li><a href="#"><img src="photo.jpg" alt="Cowboy Bebop Radical Edward icon as my profile icon."></a></li>
+        <li>
+   	  <!-- Profile image -->
+   	  <a class="p_image" href="#"></a>
+ 	</li>
       </ul>
     </nav>
     <div class="middle">
-      <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" width="272px" height="92px" alt="Google logo">
+      <div class="google_image"></div>
       <form class="search_cl">
-        <input type="text" name="search" size="50"><br>
+        <input class="search_box" type="text" name="search" size="50"><br>
         <div class="button_cl">
-          <input type="button" name="searchbtn" value="Search">
-          <input type="button" name="luckybtn" value="I'm Feeling Lucky">
+          <input class="search_button" type="button" name="searchbtn" value="Goodle Search">
+          <input class="lucky_button" type="button" name="luckybtn" value="I'm Feeling Lucky">
         </div>
       </form>
     </div>

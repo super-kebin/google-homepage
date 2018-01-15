@@ -16,6 +16,7 @@ nav, .middle, footer {
 nav {
   display: flex;
   justify-content: flex-end;
+  align-items: center;
   padding-top: 10px;
 }
 
@@ -25,9 +26,49 @@ nav a {
 }
 
 nav li {
-  display: inline;
+  display: inline-flex;
   padding-right: 20px;
 } 
+
+.header_right {
+  display: inline-flex;
+}
+
+.icon_group {
+  display: flex;
+}
+
+.icon {
+  background-image: url('../i1_1967ca6a.png');
+  height: 30px;
+  width: 30px;
+}
+
+.keypad {
+  display: inline-block;
+  background-position: -132px -38px;
+  opacity: .55;
+}
+
+.bell {
+  display: inline-block;
+  background-position: -194px -21px;
+  background-color: rgba(0,0,0,.55);
+  color: #fff;
+  margin: 5px;
+  padding: 0 2px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+}
+
+.p_image {
+  background-image: url('../photo.jpg');
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+}
 
 .middle {
   text-align: center;
@@ -35,12 +76,70 @@ nav li {
   padding-bottom: 150px;
 }
 
+.google_image {
+  display: block;
+  margin: auto;
+  background-image: url("https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png");
+  height: 92px;
+  width: 272px;
+}
+
 div .middle .search_cl {
   padding-top: 25px;
 }
 
+div .middle .search_cl .search_box {
+  background-color: #fff;
+  height: 44px;
+  vertical-align: top;
+  border-radius: 2px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+  transition: box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+  width: 484px;
+}
+
 div .middle .search_cl .button_cl {
   padding-top: 20px;
+}
+
+div .middle .search_cl .button_cl .search_button{
+  background-image: -webkit-gradient(linear,left top,left bottom,from(#f5f5f5),to(#f1f1f1));
+  background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+  -webkit-border-radius: 2px;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 2px;
+  color: #757575;
+  cursor: default;
+  font-family: arial,sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  margin: 11px 4px;
+  min-width: 54px;
+  padding: 0 16px;
+  text-align: center;
+  height: 36px;
+  line-height: 27px;
+}
+
+div .middle .search_cl .button_cl .lucky_button{
+  background-image: -webkit-gradient(linear,left top,left bottom,from(#f5f5f5),to(#f1f1f1));
+  background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+  -webkit-border-radius: 2px;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 2px;
+  color: #757575;
+  cursor: default;
+  font-family: arial,sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  margin: 11px 4px;
+  min-width: 54px;
+  padding: 0 16px;
+  text-align: center;
+  height: 36px;
+  line-height: 27px;
 }
 
 footer {
